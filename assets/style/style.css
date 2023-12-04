@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Press Start 2p';
+    src: url('../fonts/PressStart2P-Regular.ttf');
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #426173;
+    background-size: 80%;
+    overflow: hidden;
+}
+
+.restart-btn{
+    font-family: 'Press Start 2p';
+    text-align: center;
+	display: inline-block;
+	margin:5px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px ;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+    margin-top: 130px;
+    margin-left: 350px;
+
+}
+
+.restart-btn:active {
+	box-shadow: none;
+	position: relative;
+	top: .2em;
+}
+
+canvas {
+    position: absolute;
+    margin-top: -95px;
+
+    z-index: -1;
+    
+}

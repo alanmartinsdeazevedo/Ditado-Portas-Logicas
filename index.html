@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Ditado: Portas Lógicas</title>
+</head>
+<body>
+    <audio id="backgroundMusic" loop>
+        <source src="assets/audio/creepy-devil-dance-166764.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <audio id="errouAudio">
+        <source src="assets/audio/invalid-selection-39351.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <audio id="failAudio">
+        <source src="assets/audio/fail-jingle-stereo-mix-88784.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <canvas id="ditadoGameCanvas" width="650" height="400"></canvas>
+    <span class='restart-btn' onclick="restartGame()">RESTART</span>
+    <script src="assets/js/game.js"></script>
+</body>
+</html>
